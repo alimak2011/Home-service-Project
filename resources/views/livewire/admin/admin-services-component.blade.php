@@ -11,12 +11,12 @@
             <div class="bg_parallax image_02_parallax"></div>
             <div class="opacy_bg_02">
                 <div class="container">
-                    <h1>Service Categories</h1>
+                    <h1>All Services</h1>
                     <div class="crumbs">
                         <ul>
                             <li><a href="/">Home</a></li>
                             <li>/</li>
-                            <li>Service Categories</li>
+                            <li>All Services</li>
                         </ul>
                     </div>
                 </div>
@@ -32,11 +32,11 @@
                                 <div class="panel-heading">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                All Service Categories
+                                                All Services
 
                                             </div>
                                             <div class="col-md-6">
-                                                <a href="{{route('admin.add_service_category')}}" class="btn btn-info pull-right">Add New </a>
+                                                <a href="#" class="btn btn-info pull-right">Add New </a>
 
 
                                         </div>

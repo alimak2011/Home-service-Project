@@ -56,6 +56,11 @@ class ServiceCategorySeeder extends Seeder
                 "slug"=>'ac',
                 "image"=>"1521969345.png"
             ],
+            [
+                "name"=>"Pest Control",
+                "slug"=>'pest-control',
+                "image"=>"1521969464.png"
+            ],
 
 
 

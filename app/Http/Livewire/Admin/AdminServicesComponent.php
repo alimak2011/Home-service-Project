@@ -5,7 +5,6 @@ use App\Models\Service;
 use Livewire\Component;
 use Livewire\WithPagination;
 
-
 class AdminServicesComponent extends Component
 {
     use WithPagination;

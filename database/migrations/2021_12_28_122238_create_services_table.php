@@ -28,7 +28,6 @@ class CreateServicesTable extends Migration
             $table->longText('inclusion')->nullable();
             $table->longText('exclusion')->nullable();
             $table->boolean('status')->default(true);
-           
             $table->timestamps();
             $table->foreign('service_category_id')->references('id')->on('service_categories')->onDelete('cascade');
         });

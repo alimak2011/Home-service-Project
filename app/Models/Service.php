@@ -9,7 +9,8 @@ class Service extends Model
 {
     use HasFactory;
     protected $table="services";
-    public function category(){
-        return $this->belongsTO(ServiceCategory::class,'service_category_id');
+    public function category()
+    {
+        return $this->belongsTo(ServiceCategory::class,'service_category_id');
     }   
 }

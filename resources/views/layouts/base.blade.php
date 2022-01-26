@@ -63,8 +63,6 @@
                     <li> <a href="{{route('home.service_categories')}}">Services Categories </a></li>
 
 
-                  
-
                     
                     <li> <a href="#">Appliances</a>
                         <ul class="drop-down one-column hover-fade">
@@ -125,7 +123,7 @@
                     <ul class="drop-down one-column hover-fade">
                             <li><a href="{{route('admin.dashboard')}}">DashBoard </a></li>
                             <li><a href="{{route('admin.service_categories')}}">Service Categories </a></li>
-                            <li><a href="{{route('admin.all_services')}}">ALl Services </a></li>
+                            <li><a href="{{route('admin.all_services')}}">All Services </a></li>
 
 
 

@@ -15,9 +15,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-       // $this->call([
-         // ServiceCategorySeeder::class
-        //]);
-        \App\Models\Service::factory(20)->create();
+        $this->call([
+          ServiceCategorySeeder::class
+        ]);
+        //\App\Models\Service::factory(20)->create();
     }
 }

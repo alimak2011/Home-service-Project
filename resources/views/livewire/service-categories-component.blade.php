@@ -53,7 +53,7 @@
             </div>
         </section>
 
-
-
-
 </div>
+
+
+{{-- {{route('home.services_by_category',['category_slug'=>$scategory->slug])}} --}}
